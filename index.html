@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Noughts & Crosses</title>
+		<link rel="stylesheet" href="css/xo_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>Noughts & Crosses</h1>
+				<h2>(Two player game)</h2>
+			</div>
+			
+			
+			<div id="main">
+				<div id="button_container">
+					<div class="flex_row">
+						<input type="button" id="btn0" onclick="pressed(0)" value=" "> </input>
+						<input type="button" id="btn1" onclick="pressed(1)" value=" "> </input>
+						<input type="button" id="btn2" onclick="pressed(2)" value=" "> </input>
+					</div>
+					<div class="flex_row">
+						<input type="button" id="btn3" onclick="pressed(3)" value=" "> </input>
+						<input type="button" id="btn4" onclick="pressed(4)" value=" "> </input>
+						<input type="button" id="btn5" onclick="pressed(5)" value=" "> </input>
+					</div>
+					<div class="flex_row">
+						<input type="button" id="btn6" onclick="pressed(6)" value=" "> </input>
+						<input type="button" id="btn7" onclick="pressed(7)" value=" "> </input>
+						<input type="button" id="btn8" onclick="pressed(8)" value=" "> </input>
+					</div>
+				</div>
+				
+				<div id="status_disp"></div>
+				
+				<input type="button" id="reset_btn" onclick="resetBoard()" value="Reset"></input>
+			</div>
+			
+			<div id="footer">
+				<p>hufeCode - Two player noughts and crosses game</p>
+				<p>Future plan - adding a computer player to the game.</p>
+			</div>
+		</div>
+		<script src="js/xo_script.js"></script>
+	</body>
+</html>

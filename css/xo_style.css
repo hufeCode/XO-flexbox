@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*on IOS: prevents buttons to appear as circles or rounded*/
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input-checkbox {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+#container {
+	min-width: 300px;
+	max-width: 500px;
+	width: 96%;
+	margin: 0 auto;
+	font-family: Verdana, sans-serif;
+}
+
+	#header {	
+		background: #ffc84a;
+		padding: 10px 0;
+		color: white;
+		text-align: center;
+		font-size: 0.7rem;
+		border-radius: 4px;
+		border: 2px solid #929497;
+		margin-top: 10px;	
+	}
+	
+	#main {
+		margin: 10px 0;
+	}
+	
+		#button_container {
+			
+		}
+		
+			.flex_row {
+				display:flex;
+			}
+		
+				.flex_row input {
+					text-decoration: none;
+					border-radius: 4px;
+					border: 2px solid #929497;
+					background-color: white;
+					margin: 1px;
+					width: 33.33%;
+					aspect-ratio: 1/1;
+					font-size: 7rem;
+					text-align: center;
+				}
+		
+				#button_container input:hover {
+					border: 2px solid #ffc84a;
+				}
+		
+		#status_disp {  
+			font-size: 1rem;
+			height: 20px;
+			border-radius: 4px;
+			border: 2px solid #929497;
+			background-color: #ffc84a;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+			padding: 2px 0; 
+			color: purple;
+		}
+	
+		#reset_btn {   
+			width: 100%;
+			height: 60px;
+			background-color: #ffc84a;
+			border-radius: 4px;
+			font-size: 2rem;
+			color: white;
+			border: 2px solid #929497;
+		}
+		
+	#footer {
+		padding-top: 20px;
+		margin-bottom: 20px;
+		background: white;
+		width: 100%;
+		color: #929497;
+		text-align: center;
+		font-size: 10px;
+	}
+	
+	
